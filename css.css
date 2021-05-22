@@ -1,0 +1,433 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+}
+img{
+    vertical-align:sub;
+}
+
+.header{
+    height:76px;
+    line-height: 76px;
+    background:#fff;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.header .logo{
+    background: url('images/logo.png') no-repeat center;
+    background-size: 100%;
+    width:1.07rem;
+    height:0.76rem;
+    line-height: 0.76rem;
+}
+
+.menus li div{
+    height:0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.14rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-top:0.23rem;
+    padding:0 0.20rem 0 0.1rem;
+}
+.menus li:hover div,.menus li.active div{
+    background: #f25f31 url('images/bottom.png') no-repeat right 5px center;
+    background-size: 10px;
+    color:#fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.banner{
+    height:3.2rem;
+    background: url('images/banner.png') no-repeat center;
+    background-size: cover;
+}
+.banner>div{
+    max-width:12rem;
+    margin:0 auto;
+    color:#fff;
+    position: relative;
+    height: 100%;
+}
+.banner .title{
+    position: absolute;
+    left:0;
+    bottom:0.1rem;
+}
+.banner .item-title{
+    font-size: 0.24rem;
+    line-height: 0.26rem;
+    margin-bottom: 0;
+    margin-top:0.05rem;
+}
+.banner .item-content{
+    font-size: 0.4rem;
+    line-height: 0.42rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.banner2{
+    background: #F2F2F2;
+    height:148px;
+    text-align: center;
+    padding-top:44px;
+}
+.banner2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-top: 0;
+}
+.banner2 p{
+font-size:18px;
+font-weight: 400;
+color: #808080;
+}
+.container{
+    padding-bottom:0.3rem;
+}
+.footer{
+    height:0.76rem;
+    line-height: 0.76rem;
+    background:#f25f31;
+}
+.footer>div{
+    max-width: 12rem;
+    height:0.76rem;
+    line-height: 0.76rem;
+    padding:0 0.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.footer .logo{
+    background: url('images/logo2.png') no-repeat center;
+    background-size: 100%;
+    width:1.07rem;
+}
+.footer li{
+    float: left;
+    padding:0 0.05rem;
+    font-size: 0.14rem;
+    font-weight: 600;
+    color: #333333;
+}
+.footer span{
+    width:0.54rem;
+    height:0.54rem;
+    display: inline-block;
+    margin:0.1rem 0.05rem;
+}
+.footer span.f{
+    background: url('images/f2.png') no-repeat center;
+    background-size: cover;
+}
+.footer span.bird2{
+    background: url('images/bird2.png') no-repeat center;
+    background-size: cover;
+}
+.footer span.group2{
+    background: url('images/Group2.png') no-repeat center;
+    background-size: cover;
+}
+.footer span.group3{
+    width:0.6rem;
+    height:0.43rem;
+    background: url('images/Group3.png') no-repeat center;
+    background-size: cover;
+    margin-bottom:0.16rem;
+}
+ul li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.share{
+    font-size: 0.24rem;
+    font-weight: 600;
+    color: #333333;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    margin:0.1rem 0 0.4rem 0;
+}
+.share span{
+    height:0.5rem;
+    line-height: 0.5rem;
+    display: block;
+    float: left;
+    margin-right:0.1rem;
+}
+.share span.f{
+    width:0.5rem;
+    background: url('images/f.png');
+    background-size: cover;
+}
+.share span.bird{
+    width:0.5rem;
+    background: url('images/bird.png');
+    background-size: cover;
+}
+.share span.in{
+    width:0.5rem;
+    background: url('images/in.png');
+    background-size: cover;
+}
+.content-h3 h3{
+    font-size: 0.31rem;
+    font-weight: 400;
+    color: #4D4D4D;
+    line-height: 0.5rem;
+    margin:0.2rem 0 0.1rem 0;
+}
+.content-p{
+    padding:0.2rem 0;
+}
+.content-p p{
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: #808080;
+}
+.content-p p+p{
+    margin-top:0.3rem;
+}
+h2{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #333333;
+}
+.item1,.item2{
+    position: relative;
+}
+.item1{
+    margin-bottom:0.3rem;
+}
+.item1 div.title{
+    position: absolute;
+    bottom:0;
+    left:0.4rem;
+    right:0.4rem;
+    color:#fff;
+    font-weight: 400;
+}
+.item1 div .item-title{
+    font-size: 0.24rem;
+    line-height: 0.26rem;
+    margin-bottom:0.1rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.item1 div .item-content{
+    font-size: 0.34rem;
+    line-height: 0.36rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.item2 button{
+    width: 1.8rem;
+    height:0.45rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+    border-radius: 0.1rem;
+    background:#fff;
+    outline: none;
+    margin-bottom:0.1rem;
+    margin-top:0.1rem;
+}
+.item2 button.newBtn{
+    border:1px solid #11D311;
+    color:#11D311;
+}
+.item2 button.offBtn{
+    border:1px solid #5F5FFF;
+    color:#5F5FFF;
+}
+.item2 p{
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: #808080;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom:0.25rem;
+}
+.item1>div,.item2>div{
+    overflow: hidden;
+    border-radius: 0.1rem;
+}
+.item1 img,.item2 img{
+    transition: all 0.6s;
+}
+.item1 img:hover,.item2 img:hover{
+    transform: scale(1.1);
+}
+.news{
+    position: absolute;
+    top:0.2rem;
+    right:0.4rem;
+    width: 1.05rem;
+}
+.flexDiv{
+    display: flex;
+}
+.goBtn_Left{
+    flex:1;
+    padding-right:15px;
+}
+.goBtn{
+    width:1.24rem;
+    background: #E6E6E6;
+    border-radius: 0.2rem;
+    text-align: center;
+    padding:0 0.3rem;
+}
+.goBtn img{
+    width:0.35rem;
+}
+.goBtn span{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #333333;
+    margin-right:0.15rem;
+}
+.bg{
+    background: #E6E6E6;
+    padding:0.3rem 0 0 0;
+}
+@media screen and (min-width: 769px) {
+    .menus{
+        width:550px;
+    }
+    .share span{
+        font-size: 0.14rem;
+    }
+    .share span.f,.share span.bird,.share span.in{
+        width:0.27rem;
+        height:0.27rem;
+        margin-top:0.1rem;
+    }
+    .footer span{
+        width:0.27rem;
+        height:0.27rem;
+        margin-top:0.25rem
+    }
+    .footer span.group3{
+        width:0.3rem;
+        height:0.21rem;
+        margin-top:0.3rem;
+    }
+    .goBtn>div{
+        height:210px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .goBtn img{
+        margin: 0 auto;
+    }
+    .goBtn span{
+        font-size: 14px;
+        margin-right:0;
+        margin-bottom:10px;
+        display: inline-block;
+    }
+    .item2 p{
+        font-size: 18px;
+        margin-bottom:0;
+    }
+    .item2 button{
+        font-size: 12px;
+        width:100px;
+        height:25px;
+        border-radius:3px;
+    }
+    .item1 div .item-title{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .item1 div .item-content{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .col-sm-4,.col-sm-3,.col-sm-6,.col-xs-4,.col-xs-3,.col-xs-6{
+        padding:0 0.15rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header{
+        flex-flow: column;
+        justify-content: center;
+        height:2rem;
+    }
+    .header .logo{
+        margin :0 auto;
+        width:1.7rem;
+    }
+    .menus li div{
+        border: 0.01rem solid #DCDCDC;
+        border-radius: 0.05rem;
+        height: 0.76rem;
+        line-height: 0.76rem;
+        font-size: 0.24rem;
+        padding:0;
+    }
+    .menus li:hover div,.menus li:active div{
+        background:#f25f31;
+        border-radius: 0.1rem;
+    }
+    .banner .title{
+        left:0.2rem;
+    }
+    .footer ul{
+        display: none;
+    }
+    .footer .logo{
+        width:1.67rem;
+    }
+    .flexDiv{
+        display: block;
+    }
+    .goBtn_Left{
+        flex:1;
+        padding-right:0;
+    }
+    .goBtn{
+        width: 100%;
+        height:0.88rem;
+        line-height: 0.88rem;
+    }
+    .col-sm-4,.col-sm-3,.col-sm-6,.col-xs-4,.col-xs-3,.col-xs-6{
+        padding:0 0.1rem;
+    }
+    .banner{
+        background:url('images/banner1x.png') no-repeat center;
+        background-size: cover;
+    }
+}
